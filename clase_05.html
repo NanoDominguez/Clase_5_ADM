@@ -27,7 +27,7 @@
       <!-- <input type="text" v-on:keyup.enter="enviar" v-model="email"> -->
       <!-- <input type="text" @keyup.enter="enviar" v-model="email"> -->
       <!-- directiva bi-direccional -->
-      <input type="email" @keyup.enter="enviar" v-model="email">
+      <input type="email" @keyup.enter="agregarEmail" v-model="email">
       <button @click="agregarEmail" type="button" class="btn btn-outline-primary btn-sm">AGREGAR EMAIL</button>    
       <button @click="eliminarEmail" type="button" class="btn btn-outline-danger btn-sm">ELIMINAR EMAIL</button>    
       <!--Se renderiza la lista de emails-->
