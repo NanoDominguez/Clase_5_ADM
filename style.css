@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Comico';
+  src: url('fonts/PositionsByArixbored-Regular\ .otf');
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+  header{
+    text-align: center;
+  }
+
+  h1{
+    font-family: 'Comico';
+    font-size: 2rem;
+    display: block;
+  }
+
+  h2{
+    font-size: 1rem;
+    font-weight: 900;
+  }
+  
+  .hayUnError{
+    background:#ff0019;
+    color:#fff;
+  }
+  
+  .estaBien {
+    background:#008002;
+    color:#fff;
+  }
+  .interno{
+    background-color: chocolate;
+    height: 3px;
+  }
+  hr {
+    background-color: black;
+    height:5px;
+  }
+
+  section{
+    width: 90vw;
+    border: 1px solid black;
+    margin: 2rem auto;
+  }
