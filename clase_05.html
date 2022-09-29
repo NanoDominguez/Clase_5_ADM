@@ -42,6 +42,7 @@
         </li>
       </ul>
       <!-- Con vi-if, hacemos que aparezca el boton, despues de determinada cantidad de mails -->
+      <h3 v-if="obtenerMailsVisibles().length == 0">Por favor, ingrese un Email</h3>
       <button v-if="obtenerMailsVisibles().length >= 5" @click="limpiarListaEmails" type="button" class="btn btn-outline-success btn-sm">ENVIAR MAIL MASIVOS</button>
     </div>
   </section>
